@@ -40,9 +40,9 @@ end
 dirs = dir(name);
 
 for i = 1:numel(dirs)
-    dirs(i).name = string({dirs(i).name});
-    dirs(i).folder = string({dirs(i).folder});
-    dirs(i).date = datetime({dirs(i).date});
+    dirs(i).name = string(dirs(i).name);
+    dirs(i).folder = string(dirs(i).folder);
+    dirs(i).date = datetime(dirs(i).date);
 end
 
 
